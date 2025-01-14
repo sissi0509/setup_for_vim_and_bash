@@ -3,6 +3,8 @@ nmap Q <Nop>
 set tabstop=4
 set number
 set mouse+=a
+set relativenumber
+set background=dark
 nnoremap <Left> :echoe "Use h"<CR>
 nnoremap <Right> :echoe "Use l"<CR>
 nnoremap <Up> :echoe "Use k"<CR>
