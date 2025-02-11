@@ -13,6 +13,8 @@ inoremap <Left> :echoe "Use h"<CR>
 inoremap <Right> :echoe "Use l"<CR>
 inoremap <Up> :echoe "Use k"<CR>
 inoremap <Down> :echoe "Use j"<CR>
+inoremap { {}<left>
+inoremap ( ()<left>
 "" Setting plugins
 call plug#begin()
 
